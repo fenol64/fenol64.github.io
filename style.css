@@ -1,0 +1,53 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;    
+    background-color: aliceblue;
+}
+
+ul{
+    list-style-type: none;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    background-attachment: fixed;
+}
+
+li, a{
+    text-decoration: none;
+ 
+}
+
+.nav-active{
+    color: #000;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    ul{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    li, a {
+         padding: 0;  
+    }
+      
+    
+}
+
+
+
+
+
+
+
+
+
