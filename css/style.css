@@ -1,0 +1,78 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* navbar */
+
+#navbar, #header-list{
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+#navbar{
+    margin: 5px 94%;
+    background: transparent;
+    position: fixed;
+}
+
+#header-list{
+    list-style: none;
+    margin: inherit;
+    padding: inherit;
+}
+
+.header-list-item{
+    padding: 10px;
+}
+
+.header-list-item:nth-child(3){
+    margin-right: 0;
+}
+
+.nav-active{
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color: #fff;
+}
+
+.nav-active:hover{
+    color: lightblue;
+    transition: all .5s;
+}
+
+
+.divider{
+    margin: 10px;
+    display: none;
+}
+
+/* first section */
+
+#info{
+    font-family: 'Indie Flower', cursive;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.name-brand{
+    font-size: 70px;
+}
+
+.brand-body{
+    font-size: 30px;
+}
