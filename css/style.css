@@ -61,7 +61,7 @@ body{
 
 #info{
     font-family: 'Indie Flower', cursive;
-    height: 90%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,9 +70,45 @@ body{
 }
 
 .name-brand{
+    text-align: center !important;
     font-size: 70px;
 }
 
 .brand-body{
+    font-family: 'Indie Flower', cursive;
+    text-align: center !important;
     font-size: 30px;
 }
+
+
+/* projects */
+
+#projects{
+    text-align: center;
+     margin-bottom: 170px;
+}
+
+#list-projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.image{
+    width: 200px;
+    border-radius: 15px;
+}
+
+#container-show{
+    font-family: 'Indie Flower', cursive;
+    background-color: #275d71;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-top: 55px;
+}
+
+
