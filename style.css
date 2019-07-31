@@ -1,0 +1,159 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #1dacd6;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* navbar */
+
+#navbar, #header-list{
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+#navbar{
+    margin: 5px 94%;
+    background: transparent;
+    position: fixed;
+}
+
+#header-list{
+    list-style: none;
+    margin: inherit;
+    padding: inherit;
+}
+
+.header-list-item{
+    padding: 10px;
+}
+
+.header-list-item:nth-child(3){
+    margin-right: 0;
+}
+
+.nav-active{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+
+.nav-active:hover{
+    color: lightblue;
+    transition: all .5s;
+}
+
+
+.divider{
+    margin: 10px;
+    display: none;
+}
+
+/* first section */
+
+#info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.name-brand{
+    text-align: center !important;
+    font-size: 70px;
+}
+
+.brand-body{
+    text-align: center !important;
+    font-size: 30px;
+}
+
+
+/* projects */
+
+#projects{
+    text-align: center;
+     margin-bottom: 170px;
+}
+
+#list-projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.image{
+    width: 200px;
+    border-radius: 15px;
+}
+
+#container-show{
+    background-color: #275d71;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-top: 55px;
+}
+
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin-bottom: 68px;
+}
+
+
+.footer-text{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.profile-link{
+    margin: 0 15px;
+}
+
+
+
+.fa{
+    padding: 20px;
+    border-radius: 100%;
+    font-size: 50px;
+}
+
+.fa:hover{
+    background-color: #fff;
+    opacity: .5;
+    
+}
+
+
+.fa-github{
+    color: #000;
+    width:100%;
+    padding: 0;
+    font-size: 95px;
+}
+
+.fa-twitter{
+    background-color: #71c4f7;
+    color: #fff;
+}
+
+.fa-linkedin{
+    background-color: #0677b4;
+    color: #fff;
+
+}
