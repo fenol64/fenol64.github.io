@@ -7,6 +7,7 @@ html, body{
 
 body{
     background-color: #1dacd6;
+    font-family: 'Indie Flower', cursive;
 }
 
 /* navbar */
@@ -39,7 +40,6 @@ body{
 
 .nav-active{
     text-decoration: none;
-    font-family: 'Indie Flower', cursive;
     font-size: 25px;
     color: #fff;
 }
@@ -58,7 +58,6 @@ body{
 /* first section */
 
 #info{
-    font-family: 'Indie Flower', cursive;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -73,7 +72,6 @@ body{
 }
 
 .brand-body{
-    font-family: 'Indie Flower', cursive;
     text-align: center !important;
     font-size: 30px;
 }
@@ -99,7 +97,6 @@ body{
 }
 
 #container-show{
-    font-family: 'Indie Flower', cursive;
     background-color: #275d71;
     border: none;
     padding: 10px;
@@ -114,31 +111,49 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center; 
+    margin-bottom: 68px;
+}
+
+
+.footer-text{
+    font-size: 30px;
+    text-align: center;
 }
 
 
 .profile-link{
-    font-size: 50px;
     margin: 0 15px;
+}
 
+
+
+.fa{
+    padding: 20px;
+    border-radius: 100%;
+    font-size: 50px;
+}
+
+.fa:hover{
+    background-color: #fff;
+    opacity: .5;
+    
 }
 
 
 .fa-github{
     color: #000;
     width:100%;
+    padding: 0;
+    font-size: 95px;
 }
 
 .fa-twitter{
     background-color: #71c4f7;
     color: #fff;
-    padding: 20px;
-    border-radius: 100%;
 }
 
 .fa-linkedin{
     background-color: #0677b4;
     color: #fff;
-    padding: 20px;
-    border-radius: 100%;
+
 }
