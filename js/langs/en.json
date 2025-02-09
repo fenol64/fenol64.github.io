@@ -6,7 +6,7 @@
     },
     "first_section": {
         "title": "Hey, I'm a <span class=\"custom-text\">Full-Stack</span> junior software developer.",
-        "subtitle": "Programmer from Rio and Developer since 15 years old.",
+        "subtitle": "Programmer from Rio and Developer since 16 years old.",
         "button_hire": "Hire me",
         "button_wpp": "Contact me"
     },
@@ -55,7 +55,10 @@
         "event_title_4": "Link informática RJ",
         "event_subtitle_4": "I developed mobile apps, web systems for customers and a SAS platform for intern purposes. everything was made with react and react-native.",
         "event_title_5": "42 RIO",
-        "event_subtitle_5": "I'm a student at 42 RIO, a french programming school that uses a peer-to-peer learning method. I'm learning C, C++, Python, Shell, and more."
+        "event_subtitle_5": "I'm a student at 42 RIO, a french programming school that uses a peer-to-peer learning method. I'm learning C, C++, Python, Shell, and more.",
+        "event_title_6": "Sofex",
+        "event_subtitle_6": "I'm a Full-Stack developer at Sofex, a company that develops software for the construction industry."
+
     },
     "cta": {
         "title": "NEED A DEVELOPER? CONTACT ME"

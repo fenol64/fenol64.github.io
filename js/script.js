@@ -168,13 +168,20 @@
             {
                 title: "Link informática RJ",
                 description: "I'm learning and developing mobile apps, web systems for customers and a SAS platform for intern purposes.everything was made with react and react-native.",
-                period_message: "(current job)",
+                date_start: "11/2021",
+                date_end: "11/2023",
             },
             {
                 title: "42 RIO",
                 description: "I'm currently studying software engineering at 42 school, Rio de Janeiro",
                 date_start: "10/2023",
                 date_end: "12/2027",
+            },
+            {
+                title: "Sofex",
+                description: "I'm a Full-Stack developer at Sofex, a company that develops software for the construction industry.",
+                date_start: "11/2021",
+                date_end: "12/2024",
             }
         ];
 

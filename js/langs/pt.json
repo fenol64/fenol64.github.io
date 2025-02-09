@@ -6,7 +6,7 @@
     },
     "first_section": {
         "title": "Olá, sou um desenvolvedor <span class=\"custom-text\">Full-Stack</span> junior.",
-        "subtitle": "Programador carioca desde os 15 anos de idade",
+        "subtitle": "Programador carioca desde os 16 anos de idade",
         "button_hire": "Me contrata",
         "button_wpp": "Mande uma mensagem"
     },
@@ -57,7 +57,9 @@
         "event_title_4": "Link informática RJ",
         "event_subtitle_4": "Exerço a função de desenvolvedor Full-atck na Link Informática RJ, onde desenvolvo sites e sistemas web, APIS e apps.",
         "event_title_5": "42 RIO",
-        "event_subtitle_5": "Estou estudando na 42 RIO, uma escola de programação francesa, onde estou aprendendo C e C++."
+        "event_subtitle_5": "Estou estudando na 42 RIO, uma escola de programação francesa, onde estou aprendendo C e C++.",
+        "event_title_6": "Sofex",
+        "event_subtitle_6": "Sou engenheiro de software na Sofex, onde estou desenvolvendo apps, apis e integrações para o ramo da estética."
     },
     "cta": {
         "title": "Vamos trabalhar juntos? Mande uma mensagem"
