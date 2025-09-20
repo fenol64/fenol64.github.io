@@ -229,4 +229,14 @@
     await setProjects();
     await setTimeLine();
     await setLanguage('en');
+    downloadCV = () => {
+        cv_path = './curriculo_pt.pdf';
+        if (select_language.value === 'en') cv_path = './curriculo_en.pdf';
+        const link = document.createElement('a');
+        link.href = cv_path;
+        link.download = cv_path.split('/').pop();
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
 })()

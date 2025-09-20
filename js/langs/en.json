@@ -5,9 +5,9 @@
         "contact": "Contact"
     },
     "first_section": {
-        "title": "Hey, I'm a <span class=\"custom-text\">Full-Stack</span> software developer.",
+        "title": "Hey, I'm a <span class=\"custom-text\">Software Engineer</span>.",
         "subtitle": "Programmer from Rio and Developer since 16 years old.",
-        "button_hire": "Hire me",
+        "button_hire": "Download CV",
         "button_wpp": "Contact me"
     },
     "services": {
@@ -24,7 +24,7 @@
     "about": {
         "title": "about",
         "subtitle": "About me",
-        "about_text": "I'm a 19 years old programmer from Rio de Janeiro, Brazil. I'm a Full-Stack developer with 4 years of experience. I'm a self-taught programmer and I'm always learning new things. I'm a very curious person and I love to learn new things and always looking for improvement in skills and coding.",
+        "about_text": "I'm a 19 years old programmer from Rio de Janeiro, Brazil. I'm a Full-Stack developer with 5 years of experience. I'm a self-taught programmer and I'm always learning new things. I'm a very curious person and I love to learn new things and always looking for improvement in skills and coding.",
         "competence_1": "Frameworks and Languages:",
         "competence_2": "well-known technologies:",
         "competence_3": "knowledge in:",

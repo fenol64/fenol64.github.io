@@ -5,9 +5,9 @@
         "contact": "Contato"
     },
     "first_section": {
-        "title": "Olá, sou um desenvolvedor <span class=\"custom-text\">Full-Stack</span>.",
+        "title": "Olá, sou um <span class=\"custom-text\">Software Engineer</span>.",
         "subtitle": "Programador carioca desde os 16 anos de idade",
-        "button_hire": "Me contrata",
+        "button_hire": "Baixar CV",
         "button_wpp": "Mande uma mensagem"
     },
     "services": {
@@ -24,7 +24,7 @@
     "about": {
         "title": "Sobre",
         "subtitle": "Um pouco sobre mim",
-        "about_text": "Sou um programador carioca de 19 anos do Rio de Janeiro, Brasil. Sou desenvolvedor Full-Stack com 4 anos de experiência. Sou um programador autodidata e estou sempre aprendendo coisas novas. Sou uma pessoa muito curioso e adoro aprender coisas novas, visando sempre tentando melhorar minhas habilidades e programação.",
+        "about_text": "Sou um programador carioca de 19 anos do Rio de Janeiro, Brasil. Sou Engenheiro de Software com 5 anos de experiência. Sou um programador autodidata e estou sempre aprendendo coisas novas. Sou uma pessoa muito curioso e adoro aprender coisas novas, visando sempre tentando melhorar minhas habilidades e programação.",
         "competence_1": "Frameworks e Linguagens",
         "competence_2": "Noções bem fundamentadas em",
         "competence_3": "Conhecimentos em:",
