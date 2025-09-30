@@ -1,0 +1,95 @@
+{
+  "HomePage": {
+    "title": "Olá mundo!",
+    "navbar": {
+      "title": "Fernando Oliveira",
+      "items": [
+        {"label": "Início", "href": "/"},
+        {"label": "Sobre", "href": "/about"},
+        {"label": "Projetos", "href": "/projects"},
+        {"label": "Contato", "href": "/contact"}
+      ]
+    },
+    "hero": {
+      "greeting": "Olá, eu sou",
+      "name": "Fernando Oliveira",
+      "role": "Engenheiro de Software",
+      "description": "5 anos de experiência em desenvolvimento web e engenharia de dados, especializado em criar produtos completos desde a concepção até o deploy.",
+      "location": "Rio de Janeiro, Brasil",
+      "phone": "+55 (21) 99789-5329",
+      "actions": {
+        "projects": "Ver Projetos",
+        "contact": "Entrar em Contato",
+        "cv_link": "/curriculo_pt.pdf",
+        "portfolio": "Baixar CV"
+      },
+      "badges": {
+        "years": "5+ Anos",
+        "stack": "Full Stack"
+      },
+      "socials": {
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "email": "Email"
+      }
+    }
+  },
+  "AboutMeSection": {
+    "cta": "Conheça-me",
+    "title": "Sobre Mim",
+    "subtitle": "Engenheiro de software apaixonado por tecnologia e inovação, com experiência em criar soluções digitais que fazem a diferença.",
+    "journey": {
+      "title": "Minha Jornada",
+      "experience": "Com mais de 5 anos de experiência em desenvolvimento web e engenharia de dados, tenho um histórico comprovado de criação de produtos desde sua concepção até o deploy.",
+      "passion": "Minha paixão é transformar ideias em realidade através do código, sempre buscando as melhores práticas e soluções inovadoras que otimizem fluxos de trabalho e tragam agilidade para as operações."
+    },
+    "objective": {
+      "title": "Objetivo Profissional",
+      "text": "Busco aplicar minhas habilidades em programação e DevOps em uma empresa de tecnologia inovadora, contribuindo para o desenvolvimento de soluções robustas e escaláveis."
+    },
+    "skills": {
+      "title": "Conhecimentos",
+      "solidSkills": [
+        {"label": "React", "color": "blue"},
+        {"label": "JavaScript", "color": "blue"},
+        {"label": "TypeScript", "color": "blue"},
+        {"label": "Node.js", "color": "blue"},
+        {"label": "GCP", "color": "blue"},
+        {"label": "Docker", "color": "blue"},
+        {"label": "APIs REST", "color": "blue"},
+        {"label": "MongoDB", "color": "blue"},
+        {"label": "PostgreSQL", "color": "blue"},
+        {"label": "PHP", "color": "blue"},
+        {"label": "Terraform", "color": "blue"},
+        {"label": "HTML", "color": "blue"},
+        {"label": "CSS", "color": "blue"},
+        {"label": "Metodologias Ágeis (Scrum, Kanban)", "color": "blue"},
+        {"label": "Testes (Jest, React Testing Library, pytest)", "color": "blue"}
+      ],
+      "professionalExperience": [
+        {"label": "Python", "color": "purple"},
+        {"label": "Django", "color": "purple"},
+        {"label": "NestJS", "color": "purple"},
+        {"label": "React Native", "color": "purple"},
+        {"label": "AWS", "color": "purple"},
+        {"label": "Apache Airflow", "color": "purple"},
+        {"label": "Kubernetes", "color": "purple"},
+        {"label": "BigQuery", "color": "purple"},
+        {"label": "Redis", "color": "purple"},
+        {"label": "RabbitMQ", "color": "purple"},
+        {"label": "Elasticsearch", "color": "purple"},
+        {"label": "Design Patterns", "color": "purple"},
+        {"label": "Testes automatizados (Mocha)", "color": "purple"},
+        {"label": "CI/CD (GitHub Actions, GitLab CI, Azure DevOps)", "color": "purple"}
+      ],
+      "knowledge": [
+        {"label": "Angular", "color": "green"},
+        {"label": "Vue.js", "color": "green"},
+        {"label": "C/C++", "color": "green"},
+        {"label": "Golang", "color": "green"},
+        {"label": "Java", "color": "green"},
+        {"label": "Ruby on Rails", "color": "green"}
+      ]
+    }
+  }
+}

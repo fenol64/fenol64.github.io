@@ -1,0 +1,95 @@
+{
+  "HomePage": {
+    "navbar": {
+      "title": "Fernando Oliveira",
+      "items": [
+        {"label": "Home", "href": "/"},
+        {"label": "About", "href": "#about"},
+        {"label": "Projects", "href": "#projects"},
+        {"label": "Contact", "href": "#contact"}
+      ]
+    },
+    "hero": {
+      "greeting": "Hello, I am",
+      "name": "Fernando Oliveira",
+      "role": "Software Engineer",
+      "description": "5 years of experience in web development and data engineering, specialized in building complete products from conception to deployment.",
+      "location": "Rio de Janeiro, Brazil",
+      "phone": "+55 (21) 99789-5329",
+      "actions": {
+        "projects": "View Projects",
+        "contact": "Contact Me",
+        "cv_link": "/curriculo_en.pdf",
+        "portfolio": "Download CV"
+      },
+      "badges": {
+        "years": "5+ Years",
+        "stack": "Full Stack"
+      },
+      "socials": {
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "email": "Email"
+      }
+    }
+  },
+  "AboutMeSection": {
+    "cta": "Contact me",
+    "title": "About Me",
+    "subtitle": "Software engineer passionate about technology and innovation, with experience in creating digital solutions that make a difference.",
+    "journey": {
+      "title": "My Journey",
+      "experience": "With over 5 years of experience in web development and data engineering, I have a proven track record of creating products from conception to deployment.",
+      "passion": "My passion is to turn ideas into reality through code, always seeking best practices and innovative solutions that optimize workflows and bring agility to operations."
+    },
+    "objective": {
+      "title": "Professional Objective",
+      "text": "I seek to apply my programming and DevOps skills in an innovative technology company, contributing to the development of robust and scalable solutions."
+    },
+    "skills": {
+      "title": "Skills",
+      "solidSkills": [
+        {"label": "React", "color": "blue"},
+        {"label": "JavaScript", "color": "blue"},
+        {"label": "TypeScript", "color": "blue"},
+        {"label": "Node.js", "color": "blue"},
+        {"label": "GCP", "color": "blue"},
+        {"label": "Docker", "color": "blue"},
+        {"label": "APIs REST", "color": "blue"},
+        {"label": "MongoDB", "color": "blue"},
+        {"label": "PostgreSQL", "color": "blue"},
+        {"label": "mySQL", "color": "blue"},
+        {"label": "PHP", "color": "blue"},
+        {"label": "Terraform", "color": "blue"},
+        {"label": "HTML", "color": "blue"},
+        {"label": "CSS", "color": "blue"},
+        {"label": "Agile (Scrum, Kanban)", "color": "blue"},
+        {"label": "Testing (Jest, React Testing Library, pytest)", "color": "blue"}
+      ],
+      "professionalExperience": [
+        {"label": "Python", "color": "purple"},
+        {"label": "Django", "color": "purple"},
+        {"label": "NestJS", "color": "purple"},
+        {"label": "React Native", "color": "purple"},
+        {"label": "AWS", "color": "purple"},
+        {"label": "Apache Airflow", "color": "purple"},
+        {"label": "Kubernetes", "color": "purple"},
+        {"label": "BigQuery", "color": "purple"},
+        {"label": "Redis", "color": "purple"},
+        {"label": "RabbitMQ", "color": "purple"},
+        {"label": "Elasticsearch", "color": "purple"},
+        {"label": "Design Patterns", "color": "purple"},
+        {"label": "Automated testing (Mocha)", "color": "purple"},
+        {"label": "CI/CD (GitHub Actions, GitLab CI, Azure DevOps)", "color": "purple"}
+      ],
+      "knowledge": [
+        {"label": "Angular", "color": "green"},
+        {"label": "Vue.js", "color": "green"},
+        {"label": "C/C++", "color": "green"},
+        {"label": "Golang", "color": "green"},
+        {"label": "Java", "color": "green"},
+        {"label": "Ruby on Rails", "color": "green"}
+      ]
+    }
+  }
+}
