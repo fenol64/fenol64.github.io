@@ -1,5 +1,5 @@
 'use client';
-import { getLocaleFromCookie, setLocaleCookie } from '@/i18n/switchLanguage';
+import { setLocaleCookie } from '@/i18n/switchLanguage';
 import { useLocale } from 'next-intl';
 import { useTransition } from 'react';
 
@@ -20,6 +20,10 @@ export default function LocaleSwitcher() {
       setLocaleCookie(newLocale);
     });
   };
+
+  if (isPending) {
+    return <span>Loading...</span>;
+  }
 
 
   return (
