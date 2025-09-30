@@ -91,5 +91,22 @@
         {"label": "Ruby on Rails", "color": "green"}
       ]
     }
+  },
+  "ProjectsSection": {
+    "title": "Projetos",
+    "subtitle": "Alguns dos meus projetos recentes. Clique para ver o site ou o repositório.",
+    "buttonSite": "Ver Site",
+    "buttonRepo": "Ver Repositório",
+    "projects": [
+      {
+        "name": "Gerenciador de Tarefas",
+        "description": "Aplicação web para gerenciamento de tarefas com autenticação de usuários, criação, edição e exclusão de tarefas.",
+        "technologies": ["React", "Node.js", "MongoDB"],
+        "image": "/projects/task-manager.png",
+        "siteLink": "https://taskmanager.example.com",
+        "repoLink": "https://github.com/user/task-manager"
+      }
+    ]
   }
+
 }

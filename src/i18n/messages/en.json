@@ -34,6 +34,12 @@
     }
   },
   "AboutMeSection": {
+  "ProjectsSection": {
+    "title": "Projects",
+    "subtitle": "Some of my recent projects. Click to view the site or repository.",
+    "buttonSite": "View Site",
+    "buttonRepo": "View Repository"
+  },
     "cta": "Contact me",
     "title": "About Me",
     "subtitle": "Software engineer passionate about technology and innovation, with experience in creating digital solutions that make a difference.",
@@ -91,5 +97,21 @@
         {"label": "Ruby on Rails", "color": "green"}
       ]
     }
+  },
+  "ProjectsSection": {
+    "title": "Projects",
+    "subtitle": "Some of my recent projects. Click to view the site or repository.",
+    "buttonSite": "View Site",
+    "buttonRepo": "View Repository",
+    "projects": [
+      {
+        "name": "Task Manager",
+        "description": "Web application for task management with user authentication, task creation, editing, and deletion.",
+        "technologies": ["React", "Node.js", "MongoDB"],
+        "image": "/projects/task-manager.png",
+        "siteLink": "https://taskmanager.example.com",
+        "repoLink": "https://github.com/user/task-manager"
+      }
+    ]
   }
 }
