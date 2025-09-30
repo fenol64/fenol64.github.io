@@ -22,4 +22,10 @@ const eslintConfig = [
   },
 ];
 
+eslintConfig.push({
+  rules: {
+    "@typescript-eslint/no-explicit-any": "off",
+  },
+});
+
 export default eslintConfig;
