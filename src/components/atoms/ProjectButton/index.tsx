@@ -16,7 +16,7 @@ const ProjectButton: React.FC<ProjectButtonProps> = ({ href, children, variant =
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    className={`px-4 py-2 rounded font-medium transition ${variantStyles[variant]}`}
+    className={`px-4 py-2 rounded font-medium transition ${variantStyles[variant]} ${href ? '' : 'pointer-events-none opacity-50'}`}
   >
     {children}
   </a>

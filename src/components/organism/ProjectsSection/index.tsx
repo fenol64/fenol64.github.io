@@ -22,7 +22,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ t }) => (
         <h2 className="text-4xl font-bold text-slate-800 mb-2">{t("title")}</h2>
         <p className="text-lg text-slate-600 text-center max-w-2xl">{t("subtitle")}</p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {(t.raw("projects") as Array<Project>).map((project, idx) => (
           <ProjectCard key={idx} {...project} />
         ))}
