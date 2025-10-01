@@ -1,4 +1,6 @@
 import AboutMeSection from "@/components/organism/AboutMeSection";
+import CompaniesStrip from "@/components/organism/CompaniesStrip";
+import Footer from "@/components/organism/Footer";
 import Header from "@/components/organism/Header";
 import HeroSection from "@/components/organism/HeroSection";
 import ProjectsSection from "@/components/organism/ProjectsSection";
@@ -12,12 +14,16 @@ const THome: FC = async () => {
   const tHero = await getTranslations("HomePage.hero");
   const tAboutMe = await getTranslations("AboutMeSection");
   const tProjects = await getTranslations("ProjectsSection");
+  const tCompanies = await getTranslations("CompaniesStrip");
+    const tFooter = await getTranslations("Footer");
   return (
     <>
       <Header title={t("navbar.title")} items={t.raw("navbar.items")} />
       <HeroSection t={tHero} />
+      <CompaniesStrip t={tCompanies} />
       <AboutMeSection t={tAboutMe} />
       <ProjectsSection t={tProjects} />
+      <Footer t={tFooter} />
     </>
   );
 };

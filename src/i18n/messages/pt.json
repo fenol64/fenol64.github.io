@@ -92,21 +92,102 @@
       ]
     }
   },
+  "CompaniesStrip": {
+    "title": "5 anos de experiências com projetos e premiações"
+  },
   "ProjectsSection": {
-    "title": "Projetos",
-    "subtitle": "Alguns dos meus projetos recentes. Clique para ver o site ou o repositório.",
+    "title": "Projetos Pessoais",
+    "subtitle": "Alguns dos meus projetos pessoais recentes. Clique para ver o site ou o repositório.",
     "buttonSite": "Ver Site",
     "buttonRepo": "Ver Repositório",
     "projects": [
       {
-        "name": "Gerenciador de Tarefas",
-        "description": "Aplicação web para gerenciamento de tarefas com autenticação de usuários, criação, edição e exclusão de tarefas.",
+        "name": "Stellar forge",
+        "description": "Deploy de contratos inteligentes Stellar em um clique (vercel para web3)",
+        "technologies": [
+          "React",
+          "Node.js",
+          "MongoDB",
+          "TypeScript",
+          "Web3",
+          "Smart Contracts"
+        ],
+        "image": "/projects/stellarforge.png",
+        "siteLink": "https://stellarforge.com.br",
+        "repoLink": "https://github.com/fenol64/stellar-forge"
+      },
+      {
+        "name": "Datalayer JS",
+        "description": "Biblioteca JavaScript para abstração de banco de dados e manipulação de dados com SQL suportando múltiplos sistemas de banco.",
+        "technologies": ["JavaScript", "Node.js", "SQL", "MySQL", "PostgreSQL"],
+        "image": "/projects/datalayerjs.png",
+        "siteLink": "https://www.npmjs.com/package/db-datalayer-js",
+        "repoLink": "https://github.com/fenol64/Datalayer-JS"
+      },
+      {
+        "name": "Copypaste",
+        "description": "Site simples para compartilhar texto e imagens em tempo real usando websockets.",
+        "technologies": ["React", "Node.js", "WebSockets"],
+        "image": "/projects/copypaste.png",
+        "siteLink": "https://copypaste-psi.vercel.app",
+        "repoLink": "https://github.com/edgvi10/copypaste"
+      },
+      {
+        "name": "Make my drive fun BR",
+        "description": "App e web para ver pontos turísticos no seu trajeto. (em breve)",
         "technologies": ["React", "Node.js", "MongoDB"],
-        "image": "/projects/task-manager.png",
-        "siteLink": "https://taskmanager.example.com",
-        "repoLink": "https://github.com/user/task-manager"
+        "image": "/projects/makemydrivefunbr.png",
+        "siteLink": null,
+        "repoLink": null
       }
     ]
+  },
+    "Footer": {
+      "brand": "Fernando Nascimento Oliveira",
+      "description": "Engenheiro de Software com 5 anos de experiência em desenvolvimento web e engenharia de dados.",
+      "quickLinks": {
+        "title": "Links Rápidos",
+        "links": [
+          { "label": "Sobre", "href": "#about" },
+          { "label": "Experiência", "href": "#experience" },
+          { "label": "Projetos", "href": "#projects" },
+          { "label": "Contato", "href": "#contact" }
+        ]
+      },
+      "connect": {
+        "title": "Conecte-se",
+        "github": "https://github.com/fenol64",
+        "linkedin": "https://www.linkedin.com/in/fenol64",
+        "email": "mailto:fenol64.dev@gmail.com"
+      },
+      "footer": {
+        "madeWith": "Feito com",
+        "andCoffee": "e muito café.",
+        "backToTop": "Voltar ao Topo"
+      }
+    }
+,  "Footer": {
+    "brand": "Fernando Nascimento Oliveira",
+    "description": "Engenheiro de Software com 5 anos de experiência em desenvolvimento web, mobile e engenharia de dados.",
+    "quickLinks": {
+      "title": "Links Rápidos",
+      "links": [
+        { "label": "Sobre", "href": "#about" },
+        { "label": "Experiência", "href": "#experience" },
+        { "label": "Projetos", "href": "#projects" },
+        { "label": "Contato", "href": "#contact" }
+      ]
+    },
+    "connect": {
+      "title": "Conecte-se",
+      "github": "https://github.com/fenol64",
+      "linkedin": "https://www.linkedin.com/in/fenol64",
+      "email": "mailto:fenol64.dev@gmail.com"
+    },
+    "footer": {
+      "madeWith": "Feito com",
+      "andCoffee": "e muito café.",
+      "backToTop": "Voltar ao Topo"
+    }
   }
-
 }

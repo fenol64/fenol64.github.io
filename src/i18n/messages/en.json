@@ -104,6 +104,9 @@
       ]
     }
   },
+  "CompaniesStrip": {
+    "title": "5 years of experience with projects and awards"
+  },
   "ProjectsSection": {
     "title": "Projects",
     "subtitle": "Some of my recent personal projects. Click to view the site or repository.",
@@ -150,5 +153,29 @@
         "repoLink": null
       }
     ]
+  },
+    "Footer": {
+    "brand": "Fernando Nascimento Oliveira",
+    "description": "Software Engineer with 5 years of experience in web and apps development and data engineering.",
+    "quickLinks": {
+      "title": "Quick Links",
+      "links": [
+        { "label": "About", "href": "#about" },
+        { "label": "Experience", "href": "#experience" },
+        { "label": "Projects", "href": "#projects" },
+        { "label": "Contact", "href": "#contact" }
+      ]
+    },
+    "connect": {
+      "title": "Connect",
+      "github": "https://github.com/fenol64",
+      "linkedin": "https://www.linkedin.com/in/fenol64",
+      "email": "mailto:fenol64.dev@gmail.com"
+    },
+    "footer": {
+      "madeWith": "Made with",
+      "andCoffee": "and lots of coffee.",
+      "backToTop": "Back to Top"
+    }
   }
 }
