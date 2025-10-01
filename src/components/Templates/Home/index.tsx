@@ -1,4 +1,5 @@
 import AboutMeSection from "@/components/organism/AboutMeSection";
+import AwardsSection from "@/components/organism/AwardsSection";
 import CompaniesStrip from "@/components/organism/CompaniesStrip";
 import Footer from "@/components/organism/Footer";
 import Header from "@/components/organism/Header";
@@ -15,7 +16,8 @@ const THome: FC = async () => {
   const tAboutMe = await getTranslations("AboutMeSection");
   const tProjects = await getTranslations("ProjectsSection");
   const tCompanies = await getTranslations("CompaniesStrip");
-    const tFooter = await getTranslations("Footer");
+  const tAwards = await getTranslations("AwardsSection");
+  const tFooter = await getTranslations("Footer");
   return (
     <>
       <Header title={t("navbar.title")} items={t.raw("navbar.items")} />
@@ -23,6 +25,7 @@ const THome: FC = async () => {
       <CompaniesStrip t={tCompanies} />
       <AboutMeSection t={tAboutMe} />
       <ProjectsSection t={tProjects} />
+      <AwardsSection t={tAwards} />
       <Footer t={tFooter} />
     </>
   );

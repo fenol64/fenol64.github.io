@@ -142,6 +142,10 @@
       }
     ]
   },
+    "AwardsSection": {
+    "title": "Premiações",
+    "subtitle": "Alguns dos prêmios e reconhecimentos recebidos ao longo da carreira. Clique para saber mais."
+  },
     "Footer": {
       "brand": "Fernando Nascimento Oliveira",
       "description": "Engenheiro de Software com 5 anos de experiência em desenvolvimento web e engenharia de dados.",
@@ -166,28 +170,4 @@
         "backToTop": "Voltar ao Topo"
       }
     }
-,  "Footer": {
-    "brand": "Fernando Nascimento Oliveira",
-    "description": "Engenheiro de Software com 5 anos de experiência em desenvolvimento web, mobile e engenharia de dados.",
-    "quickLinks": {
-      "title": "Links Rápidos",
-      "links": [
-        { "label": "Sobre", "href": "#about" },
-        { "label": "Experiência", "href": "#experience" },
-        { "label": "Projetos", "href": "#projects" },
-        { "label": "Contato", "href": "#contact" }
-      ]
-    },
-    "connect": {
-      "title": "Conecte-se",
-      "github": "https://github.com/fenol64",
-      "linkedin": "https://www.linkedin.com/in/fenol64",
-      "email": "mailto:fenol64.dev@gmail.com"
-    },
-    "footer": {
-      "madeWith": "Feito com",
-      "andCoffee": "e muito energético.",
-      "backToTop": "Voltar ao Topo"
-    }
-  }
 }
