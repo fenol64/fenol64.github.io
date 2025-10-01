@@ -7,11 +7,14 @@ interface CompaniesStripProps {
 
 // Mocked companies logos (replace with your real logos in /public/companies/)
 const companies = [
-  { name: "Empresa 1", logo: "/companies/vibra-logo.png" },
-  { name: "Empresa 2", logo: "/companies/vale-logo.png" },
-  { name: "Empresa 3", logo: "/companies/42-logo.png" },
-  { name: "Empresa 4", logo: "/companies/sofex-logo.png" },
-  { name: "Empresa 5", logo: "/companies/inob-logo.png" },
+  { name: "vibra logo", logo: "/companies/vibra-logo.png" },
+  { name: "vale logo", logo: "/companies/vale-logo.png" },
+  { name: "42 rio logo", logo: "/companies/42-logo.png" },
+  { name: "sofex logo", logo: "/companies/sofex-logo.png" },
+  { name: "inob logo", logo: "/companies/inob-logo.png" },
+  { name: "link logo", logo: "/companies/link-logo.png" },
+  { name: "stellar logo", logo: "/companies/stellar-logo.png" },
+  { name: "cosmos logo", logo: "/companies/cosmos-logo.png" },
 ];
 
 const CompaniesStrip: React.FC<CompaniesStripProps> = ({ t }) => (
@@ -24,7 +27,7 @@ const CompaniesStrip: React.FC<CompaniesStripProps> = ({ t }) => (
         {companies.map((company) => (
           <div
             key={company.name}
-            className="flex items-center justify-center bg-white rounded h-16 w-32 p-2 shadow-sm"
+            className="flex items-center justify-center bg-white rounded h-16 w-32 p-2 shadow-sm overflow-hidden"
             title={company.name}
           >
             <Image
@@ -42,4 +45,3 @@ const CompaniesStrip: React.FC<CompaniesStripProps> = ({ t }) => (
 );
 
 export default CompaniesStrip;
-
