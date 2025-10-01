@@ -1,12 +1,13 @@
+
 {
   "HomePage": {
     "navbar": {
       "title": "Fernando Oliveira",
       "items": [
-        {"label": "Home", "href": "/"},
-        {"label": "About", "href": "#about"},
-        {"label": "Projects", "href": "#projects"},
-        {"label": "Contact", "href": "#contact"}
+        { "label": "Home", "href": "/" },
+        { "label": "About", "href": "#about" },
+        { "label": "Projects", "href": "#projects" },
+        { "label": "Awards", "href": "#awards" }
       ]
     },
     "hero": {
@@ -34,6 +35,12 @@
     }
   },
   "AboutMeSection": {
+    "ProjectsSection": {
+      "title": "Projects",
+      "subtitle": "Some of my recent projects. Click to view the site or repository.",
+      "buttonSite": "View Site",
+      "buttonRepo": "View Repository"
+    },
     "cta": "Contact me",
     "title": "About Me",
     "subtitle": "Software engineer passionate about technology and innovation, with experience in creating digital solutions that make a difference.",
@@ -49,47 +56,131 @@
     "skills": {
       "title": "Skills",
       "solidSkills": [
-        {"label": "React", "color": "blue"},
-        {"label": "JavaScript", "color": "blue"},
-        {"label": "TypeScript", "color": "blue"},
-        {"label": "Node.js", "color": "blue"},
-        {"label": "GCP", "color": "blue"},
-        {"label": "Docker", "color": "blue"},
-        {"label": "APIs REST", "color": "blue"},
-        {"label": "MongoDB", "color": "blue"},
-        {"label": "PostgreSQL", "color": "blue"},
-        {"label": "mySQL", "color": "blue"},
-        {"label": "PHP", "color": "blue"},
-        {"label": "Terraform", "color": "blue"},
-        {"label": "HTML", "color": "blue"},
-        {"label": "CSS", "color": "blue"},
-        {"label": "Agile (Scrum, Kanban)", "color": "blue"},
-        {"label": "Testing (Jest, React Testing Library, pytest)", "color": "blue"}
+        { "label": "React", "color": "blue" },
+        { "label": "JavaScript", "color": "blue" },
+        { "label": "TypeScript", "color": "blue" },
+        { "label": "Node.js", "color": "blue" },
+        { "label": "GCP", "color": "blue" },
+        { "label": "Docker", "color": "blue" },
+        { "label": "APIs REST", "color": "blue" },
+        { "label": "MongoDB", "color": "blue" },
+        { "label": "PostgreSQL", "color": "blue" },
+        { "label": "mySQL", "color": "blue" },
+        { "label": "PHP", "color": "blue" },
+        { "label": "Terraform", "color": "blue" },
+        { "label": "HTML", "color": "blue" },
+        { "label": "CSS", "color": "blue" },
+        { "label": "Agile (Scrum, Kanban)", "color": "blue" },
+        {
+          "label": "Testing (Jest, React Testing Library, pytest)",
+          "color": "blue"
+        }
       ],
       "professionalExperience": [
-        {"label": "Python", "color": "purple"},
-        {"label": "Django", "color": "purple"},
-        {"label": "NestJS", "color": "purple"},
-        {"label": "React Native", "color": "purple"},
-        {"label": "AWS", "color": "purple"},
-        {"label": "Apache Airflow", "color": "purple"},
-        {"label": "Kubernetes", "color": "purple"},
-        {"label": "BigQuery", "color": "purple"},
-        {"label": "Redis", "color": "purple"},
-        {"label": "RabbitMQ", "color": "purple"},
-        {"label": "Elasticsearch", "color": "purple"},
-        {"label": "Design Patterns", "color": "purple"},
-        {"label": "Automated testing (Mocha)", "color": "purple"},
-        {"label": "CI/CD (GitHub Actions, GitLab CI, Azure DevOps)", "color": "purple"}
+        { "label": "Python", "color": "purple" },
+        { "label": "Django", "color": "purple" },
+        { "label": "NestJS", "color": "purple" },
+        { "label": "React Native", "color": "purple" },
+        { "label": "AWS", "color": "purple" },
+        { "label": "Apache Airflow", "color": "purple" },
+        { "label": "Kubernetes", "color": "purple" },
+        { "label": "BigQuery", "color": "purple" },
+        { "label": "Redis", "color": "purple" },
+        { "label": "RabbitMQ", "color": "purple" },
+        { "label": "Elasticsearch", "color": "purple" },
+        { "label": "Design Patterns", "color": "purple" },
+        { "label": "Automated testing (Mocha)", "color": "purple" },
+        {
+          "label": "CI/CD (GitHub Actions, GitLab CI, Azure DevOps)",
+          "color": "purple"
+        }
       ],
       "knowledge": [
-        {"label": "Angular", "color": "green"},
-        {"label": "Vue.js", "color": "green"},
-        {"label": "C/C++", "color": "green"},
-        {"label": "Golang", "color": "green"},
-        {"label": "Java", "color": "green"},
-        {"label": "Ruby on Rails", "color": "green"}
+        { "label": "Angular", "color": "green" },
+        { "label": "Vue.js", "color": "green" },
+        { "label": "C/C++", "color": "green" },
+        { "label": "Golang", "color": "green" },
+        { "label": "Java", "color": "green" },
+        { "label": "Ruby on Rails", "color": "green" }
       ]
+    }
+  },
+  "CompaniesStrip": {
+    "title": "5 years of experience with real projects and awards"
+  },
+  "ProjectsSection": {
+    "title": "Projects",
+    "subtitle": "Some of my recent personal projects. Click to view the site or repository.",
+    "buttonSite": "View Site",
+    "buttonRepo": "View Repository",
+    "projects": [
+      {
+        "name": "Stellar forge",
+        "description": "One click deployer for stellar smart contracts (vercel for web3)",
+        "technologies": [
+          "React",
+          "Node.js",
+          "MongoDB",
+          "TypeScript",
+          "Web3",
+          "Smart Contracts"
+        ],
+        "image": "/projects/stellarforge.png",
+        "siteLink": "https://stellarforge.com.br",
+        "repoLink": "https://github.com/fenol64/stellar-forge"
+      },
+      {
+        "name": "Datalayer JS",
+        "description": "JavaScript library for database abstraction and data manipulation with SQL supporting multiple database systems.",
+        "technologies": ["JavaScript", "Node.js", "SQL", "MySQL", "PostgreSQL"],
+        "image": "/projects/datalayerjs.png",
+        "siteLink": "https://www.npmjs.com/package/db-datalayer-js",
+        "repoLink": "https://github.com/fenol64/Datalayer-JS"
+      },
+      {
+        "name": "Copypaste",
+        "description": "simple website to share text and images in real time using websockets.",
+        "technologies": ["React", "Node.js", "WebSockets"],
+        "image": "/projects/copypaste.png",
+        "siteLink": "https://copypaste-psi.vercel.app",
+        "repoLink": "https://github.com/edgvi10/copypaste"
+      },
+      {
+        "name": "Make my drive fun BR",
+        "description": "app and web application to see touristic places in your path.\n(coming soon)",
+        "technologies": ["React", "Node.js", "MongoDB"],
+        "image": "/projects/makemydrivefunbr.png",
+        "siteLink": null,
+        "repoLink": null
+      }
+    ]
+  },
+    "AwardsSection": {
+    "title": "Awards",
+    "subtitle": "Some of the awards and recognitions received throughout my career. Click to learn more."
+  },
+    "Footer": {
+    "brand": "Fernando Nascimento Oliveira",
+    "description": "Software Engineer with 5 years of experience in web and apps development and data engineering.",
+    "quickLinks": {
+      "title": "Quick Links",
+      "links": [
+        { "label": "About", "href": "#about" },
+        { "label": "Experience", "href": "#experience" },
+        { "label": "Projects", "href": "#projects" },
+        { "label": "Awards", "href": "#awards" }
+      ]
+    },
+    "connect": {
+      "title": "Connect",
+      "github": "https://github.com/fenol64",
+      "linkedin": "https://www.linkedin.com/in/fenol64",
+      "email": "mailto:fenol64.dev@gmail.com"
+    },
+    "footer": {
+      "madeWith": "Made with",
+      "andCoffee": "and lots of energy drinks.",
+      "backToTop": "Back to Top"
     }
   }
 }
