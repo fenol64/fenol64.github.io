@@ -14,7 +14,7 @@ interface IAwardsSection {
 
 const AwardsSection: FC<IAwardsSection> = ({ t }) => {
   return (
-    <section className="w-full py-12 bg-slate-50" id="awards">
+    <section className="w-full py-12 bg-slate-50 min-h-screen flex items-center" id="awards">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex flex-col items-center gap-2 mb-6">
           <h2 className="text-4xl font-bold text-slate-800 mb-2">{t("title")}</h2>
