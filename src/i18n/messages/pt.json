@@ -142,32 +142,64 @@
       }
     ]
   },
-    "AwardsSection": {
+  "AwardsSection": {
     "title": "Premiações",
-    "subtitle": "Alguns dos prêmios e reconhecimentos recebidos ao longo da carreira. Clique para saber mais."
+    "subtitle": "Alguns dos prêmios e reconhecimentos recebidos ao longo da carreira. Clique para saber mais.",
+    "awards": [
+      {
+        "image": "/awards/hackathonmeridian.jpg",
+        "title": "Hackathon Hack Meridian",
+        "subtitle": "Acontecido no hotel Copacabana Palace e promovido pela NearX e Stellar. Uma experiência incrível de 36 horas com 100 equipes, 6 finalistas tendo que fazer um pitch em inglês e um prêmio de $3000 pelo terceiro lugar com uma plataforma que faz deploy de smart contracts da stellar com um click (stellarforge).",
+        "link": "#"
+      },
+              {
+          "image": "/awards/hackatonvale.png",
+          "title": "Hackathon 42 Rio + Vale",
+          "subtitle": "Um Hackathon promovido pela 42 Rio em parceria com a Vale, focado em desenvolver soluções inovadoras para desafios reais. minha trilha foi relacionada a facilitar  comunicação dos mais de 70 mil funcionários da Vale todos os beneficios que eles tem acesso e como usufruir melhor deles com IA, além de fazer uim chatbot com IA generativa fizemos um algoritmo que identifica entradas no sistema e vincula com seus beneficios.",
+          "link": "#"
+        },
+      {
+        "image": "/awards/hackathonmm.png",
+        "title": "Hackathon Morro Makers",
+        "subtitle": "Uma experiência incrível em uma mansão em Santa Teresa. Segundo lugar em um prêmio de bootcamp com um app que ajusta preços com base em condições externas como clima e eventos próximos.",
+        "link": "#"
+      },
+      {
+        "image": "/awards/modularcripto.png",
+        "title": "Hackathon Modular Cripto",
+        "subtitle": "Acontecido no Minascentro (BH). Segundo lugar com a equipe P.A.G.A, criando uma plataforma para engajar comunidades com seus políticos através de promessas assinadas.",
+        "link": "#"
+      },
+      {
+          "image": "/awards/hackathonovernight.jpg",
+          "title": "Overnight Hackathon",
+          "subtitle": "Promovido pela unisuan. Conseguimos primeiro lugar com uma equipe responsável pela trilha de Tags e Theses, criando um agente de IA para gerar tags e theses.",
+          "link": "#"
+        }
+    ]
   },
-    "Footer": {
-      "brand": "Fernando Nascimento Oliveira",
-      "description": "Engenheiro de Software com 5 anos de experiência em desenvolvimento web e engenharia de dados.",
-      "quickLinks": {
-        "title": "Links Rápidos",
-        "links": [
-          { "label": "Sobre", "href": "#about" },
-          { "label": "Experiência", "href": "#experience" },
-          { "label": "Projetos", "href": "#projects" },
-          { "label": "Contato", "href": "#contact" }
-        ]
-      },
-      "connect": {
-        "title": "Conecte-se",
-        "github": "https://github.com/fenol64",
-        "linkedin": "https://www.linkedin.com/in/fenol64",
-        "email": "mailto:fenol64.dev@gmail.com"
-      },
-      "footer": {
-        "madeWith": "Feito com",
-        "andCoffee": "e muito café.",
-        "backToTop": "Voltar ao Topo"
-      }
+  "Footer": {
+    "brand": "Fernando Nascimento Oliveira",
+    "description": "Engenheiro de Software com 5 anos de experiência em desenvolvimento web e engenharia de dados.",
+    "quickLinks": {
+      "title": "Links Rápidos",
+      "links": [
+        { "label": "Sobre", "href": "#about" },
+        { "label": "Experiência", "href": "#experience" },
+        { "label": "Projetos", "href": "#projects" },
+        { "label": "Contato", "href": "#contact" }
+      ]
+    },
+    "connect": {
+      "title": "Conecte-se",
+      "github": "https://github.com/fenol64",
+      "linkedin": "https://www.linkedin.com/in/fenol64",
+      "email": "mailto:fenol64.dev@gmail.com"
+    },
+    "footer": {
+      "madeWith": "Feito com",
+      "andCoffee": "e muito café.",
+      "backToTop": "Voltar ao Topo"
     }
+  }
 }

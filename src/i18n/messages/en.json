@@ -1,4 +1,3 @@
-
 {
   "HomePage": {
     "navbar": {
@@ -155,11 +154,43 @@
       }
     ]
   },
-    "AwardsSection": {
+  "AwardsSection": {
     "title": "Awards",
-    "subtitle": "Some of the awards and recognitions received throughout my career. Click to learn more."
+    "subtitle": "Some of the awards and recognitions received throughout my career. Click to learn more.",
+    "awards": [
+      {
+        "image": "/awards/hackathonmeridian.jpg",
+        "title": "Hackathon Hack Meridian",
+        "subtitle": "An event held at the Copacabana Palace hotel and promoted by NearX and Stellar. An incredible 36-hour experience with 100 teams, 6 finalists who had to make a pitch in English, and a $3,000 prize for third place with a platform that deploys Stellar smart contracts with one click (StellarForge).",
+        "link": "#"
+      },
+            {
+        "image": "/awards/hackatonvale.png",
+        "title": "Hackathon 42 Rio + Vale",
+        "subtitle": "A Hackathon promoted by 42 Rio in partnership with Vale, focused on developing innovative solutions for real challenges. My track was related to facilitating communication for Vale's more than 70,000 employees about all the benefits they have access to and how to make better use of them with AI. In addition to creating a chatbot with generative AI, we developed an algorithm that identifies entries in the system and links them to their benefits.",
+        "link": "#"
+      },
+      {
+        "image": "/awards/hackathonmm.png",
+        "title": "Hackathon Morro Makers",
+        "subtitle": "An amazing experience in a Santa Teresa mansion. Second place in a bootcamp award with an app that adjusts prices based on external conditions like weather and nearby events.",
+        "link": "#"
+      },
+      {
+        "image": "/awards/modularcripto.png",
+        "title": "Hackathon Modular Cripto",
+        "subtitle": "Held at Minascentro (BH). Second place with team P.A.G.A, creating a platform to engage communities with their politicians through signed promises.",
+        "link": "#"
+      },
+      {
+        "image": "/awards/hackathonovernight.jpg",
+        "title": "Overnight Hackathon",
+        "subtitle": "First place with a team responsible for the Tags and Theses track, creating an AI agent to generate tags and theses.",
+        "link": "#"
+      }
+    ]
   },
-    "Footer": {
+  "Footer": {
     "brand": "Fernando Nascimento Oliveira",
     "description": "Software Engineer with 5 years of experience in web and apps development and data engineering.",
     "quickLinks": {
